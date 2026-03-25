@@ -2,6 +2,6 @@
 {"dg-publish":true,"permalink":"/codex-personarum/players/pesky/","dg-note-properties":{}}
 ---
 
-*"I caused they honey crisis of Ulric."*
+*"Walking Cat Epidemic."*
 ##### Luck Profile: Average
 Pesky has average luck and depends on the universe's feelings.
