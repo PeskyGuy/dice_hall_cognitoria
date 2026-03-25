@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/compendia-mundorum/campaigns/permafrost/","dg-note-properties":{}}
 ---
 
-# Permafrost
-
 A campaign that ended early, but is now continued by [[Codex Personarum/Players/Elemium\|Elemium]] through the Tavern of Tales.
 
 #### The Legacy Group:
@@ -17,11 +15,11 @@ The party of adventurers in the original campaign when it was still hosted by [[
 #### The New Group:
 The party of transporters in the new game of [[Compendia Mundorum/Campaigns/Permafrost\|Permafrost]].
 
-- [[Codex Personarum/Permafrost Continued/Persi\|Persi]]
-- [[Codex Personarum/Permafrost Continued/Dralga Ironforge\|Dralga Ironforge]]
 - [[Codex Personarum/Permafrost Continued/Atius\|Atius]]
+- [[Codex Personarum/Permafrost Continued/Dralga Ironforge\|Dralga Ironforge]]
 - [[Codex Personarum/Permafrost Continued/Ormr\|Ormr]]
-- ???
+- [[Codex Personarum/Permafrost Continued/Persi\|Persi]]
+- [[Codex Personarum/Permafrost Continued/Solas Arbiter II\|Solas Arbiter II]]
 
 ### Permafrost Legacy
 

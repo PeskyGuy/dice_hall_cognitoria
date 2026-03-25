@@ -19,19 +19,15 @@ In here is the glossary of worlds, each with a summary of what that campaign is 
 Below are the worlds that the campaigns are set in, each with a summary of what world is connected to what campaign and if it still exists.
 ##### [[Compendia Mundorum/Worlds/Teresh\|Teresh]]
 
- [[Compendia Mundorum/Worlds/Inclementia\|Inclementia]]
+##### [[Compendia Mundorum/Worlds/Inclementia\|Inclementia]]
 
 ---
 #### The Codex Personarum
 
 Here is the Codex of Characters, a list of made characters with profiles and statistics.
 
-[[Codex Personarum/Permafrost Legacy/Dr. Alister Acula\|Dr. Alister Acula]]
-
-[[Codex Personarum/Permafrost Legacy/Gibrid\|Gibrid]]
-
-[[Codex Personarum/Permafrost Legacy/Hyterasu\|Hyterasu]]
-
-[[Codex Personarum/Permafrost Legacy/Lonabella Runeguard\|Lonabella Runeguard]]
-
-[[Codex Personarum/Permafrost Legacy/Widnu\|Widnu]]
+- [[Codex Personarum/Permafrost Legacy/Dr. Alister Acula\|Dr. Alister Acula]]
+- [[Codex Personarum/Permafrost Legacy/Gibrid\|Gibrid]]
+- [[Codex Personarum/Permafrost Legacy/Hyterasu\|Hyterasu]]
+- [[Codex Personarum/Permafrost Legacy/Lonabella Runeguard\|Lonabella Runeguard]]
+- [[Codex Personarum/Permafrost Legacy/Widnu\|Widnu]]
