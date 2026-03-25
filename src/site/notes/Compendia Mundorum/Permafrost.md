@@ -23,11 +23,11 @@ The party of transporters in the new game of [[Compendia Mundorum/Permafrost\|Pe
 - [[Codex Personarum/Permafrost Continued/Ormr\|Ormr]]
 - ???
 
-### [[Codex Personarum/Permafrost Legacy/Permafrost Legacy\|Permafrost Legacy]]
+### Permafrost Legacy
 
 An era of frost, led by the goddess Kalda. A world fraught with undeath. A small group bound by fate given the responsibility to solve the frozen hell. The fruits of their labour however, we're for nothing as the bright light that meant to lead them to the truth, banished them to the depths of the void.
 
-### [[Codex Personarum/Permafrost Continued/Permafrost Continued\|Permafrost Continued]]
+### Permafrost Continued
 
 Centuries ago, legends say the world was a warm and vibrant cradle, but today it is a tomb of suffocating frost where the simple act of traveling between the last surviving cities is the deadliest job in existence.
 

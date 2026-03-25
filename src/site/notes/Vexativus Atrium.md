@@ -12,12 +12,13 @@ Here you will find the wacky and wild ideas (spoiler free) that Pesky has though
 In here is the glossary of worlds, each with a summary of what that world is and if it exists in reality.
 
 ---
-#### The [[Codex Personarum\|Codex Personarum]]
+#### The Codex Personarum
 
 Here is the Codex of Persons, a list of made characters with profiles and statistics.
 
 ---
 
-#### The [[Player List\|Player List]]
+#### The Player List
 
 Here are the players of the many campaigns. They are silly.
+
