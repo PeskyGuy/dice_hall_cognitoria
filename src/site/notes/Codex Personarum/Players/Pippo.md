@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/codex-personarum/players/pippo/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/codex-personarum/players/pippo/","dg-note-properties":{}}
 ---
 
 *"We are pippo"*

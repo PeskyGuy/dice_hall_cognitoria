@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/codex-personarum/players/nox/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/codex-personarum/players/nox/","dg-note-properties":{}}
 ---
 
 *"Doth mother know you weareth her drapes?*

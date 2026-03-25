@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/codex-personarum/players/pesky/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/codex-personarum/players/pesky/","dg-note-properties":{}}
 ---
 
 *"I caused they honey crisis of Ulric."*

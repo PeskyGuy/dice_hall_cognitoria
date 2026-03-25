@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/codex-personarum/players/koala/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/codex-personarum/players/koala/","dg-note-properties":{}}
 ---
 
 Kola.

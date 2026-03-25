@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/codex-personarum/players/cody/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/codex-personarum/players/cody/","dg-note-properties":{}}
 ---
 
 *"your local Wizarding red panda"*

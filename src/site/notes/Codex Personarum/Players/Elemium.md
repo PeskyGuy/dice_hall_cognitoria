@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/codex-personarum/players/elemium/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/codex-personarum/players/elemium/","dg-note-properties":{}}
 ---
 
 *"Silly person who will romance anyone."*

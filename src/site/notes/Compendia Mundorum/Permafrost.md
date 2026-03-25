@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/compendia-mundorum/permafrost/","noteIcon":"","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/compendia-mundorum/permafrost/","dg-note-properties":{}}
 ---
 
 # Permafrost
