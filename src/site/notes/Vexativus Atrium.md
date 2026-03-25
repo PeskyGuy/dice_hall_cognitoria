@@ -18,6 +18,6 @@ Here is the Codex of Persons, a list of made characters with profiles and statis
 
 ---
 
-#### The [[Codex Personarum/Players/Player List\|Player List]]
+#### The [[Player List\|Player List]]
 
 Here are the players of the many campaigns. They are silly.
