@@ -187,12 +187,16 @@ blockquote {
 
 /* --- SITE NAME / NAVBAR --- */
 
-.navbar h1 {
-    font-size: 1.5rem !important;
+.navbar .navbar-inner h1 {
+    font-size: 1.2rem !important;
     margin: 10px !important;
 }
 
-.site-logo {
-    max-height: 60px;
+.navbar .site-logo {
+    max-height: 50px !important;
     width: auto;
+}
+
+.filetree-sidebar h1 {
+    font-size: 1.5rem !important;
 }
