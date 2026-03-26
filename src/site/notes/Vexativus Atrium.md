@@ -1,6 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/vexativus-atrium/","title":"Vexativus Atrium","tags":["gardenEntry"],"dg-note-properties":{"title":"Vexativus Atrium"}}
+{"dg-publish":true,"permalink":"/vexativus-atrium/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
+
+# Vexativus Atrium
 
 This is Pesky's *vault of campaigns and yes Pesky is using Latin sounding things because it's cool.*
 
