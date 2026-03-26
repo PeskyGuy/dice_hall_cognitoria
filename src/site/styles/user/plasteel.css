@@ -90,10 +90,10 @@ body {
     width: var(--dg-sidebar-max-width) !important;
     background-color: #0a0b0d !important;
     padding: 20px !important;
-    height: auto !important;
+    height: 100vh !important;
     min-height: 100vh !important;
     position: fixed !important;
-    overflow-y: visible !important;
+    overflow-y: hidden !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
@@ -118,9 +118,9 @@ body {
     flex-direction: column !important;
     align-items: center !important;
     padding: 0 !important;
-    height: auto !important;
+    flex: 1 !important;
     max-height: none !important;
-    overflow: visible !important;
+    overflow: hidden !important;
 }
 
 .sidebar .graph {
@@ -137,14 +137,35 @@ body {
     margin: 0 auto !important;
 }
 
+.sidebar .toc {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex: 1 !important;
+    min-height: 0 !important;
+}
+
+.sidebar .toc-container {
+    flex: 1 !important;
+    max-height: none !important;
+    overflow-y: auto !important;
+    padding-right: 5px !important;
+}
+
 .sidebar .backlinks {
     width: 100% !important;
     margin-top: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex: 1 !important;
+    min-height: 0 !important;
 }
 
 .sidebar .backlink-list {
+    flex: 1 !important;
     max-height: none !important;
-    overflow: visible !important;
+    overflow-y: auto !important;
+    padding-right: 5px !important;
 }
 
 /* Responsive: maintain layout on different displays */
