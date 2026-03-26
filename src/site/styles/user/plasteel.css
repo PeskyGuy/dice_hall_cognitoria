@@ -1,0 +1,318 @@
+/* Plasteel Theme - RimWorld Inspired Color Scheme */
+/* Layout fixes + color theme */
+
+/* Load custom RimWorld font */
+@font-face {
+    font-family: 'RimWordFont';
+    src: url('/styles/user/fonts/RimWordFont4.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    /* Custom Font */
+    --custom-rim-font: "RimWordFont", "Verdana", sans-serif;
+    
+    /* Background Colors */
+    --background-primary: #15181f; 
+    --background-secondary: #0a0b0d; 
+    --background-secondary-alt: #0a0b0d; 
+    --background-modifier-border: #898b8e;
+    
+    /* Interactive Colors */
+    --interactive-normal: #69502c; 
+    --interactive-hover: #242933;
+    --interactive-accent: #69502c;
+    
+    /* Text Colors */
+    --text-normal: #e3e3e3; 
+    --text-muted: #898b8e;
+    --text-faint: #444446;
+    --text-accent: #d1b075;
+
+    /* Border Radius - Sharp edges */
+    --radius-s: 0px; 
+    --radius-m: 0px; 
+    --radius-l: 0px; 
+    --window-radius: 0px;
+
+    /* Fonts */
+    --font-interface: "Verdana", sans-serif;
+    --font-text: "Verdana", sans-serif;
+    
+    /* Layout adjustments */
+    --dg-content-max-width: 800px;
+    --dg-filetree-width: 280px;
+    --dg-filetree-min-width: 280px;
+    --dg-sidebar-max-width: 350px;
+    --dg-sidebar-min-width: 300px;
+    --dg-graph-width: 320px;
+    --dg-graph-height: 320px;
+}
+
+/* Fix site title size */
+.navbar .navbar-inner h1,
+.filetree-sidebar h1 {
+    font-size: 1.5rem !important;
+}
+
+/* Remove extra dead space - center content properly */
+.content {
+    margin-left: calc(var(--dg-filetree-width) + 40px) !important;
+    margin-right: calc(var(--dg-sidebar-max-width) + 40px) !important;
+    max-width: var(--dg-content-max-width) !important;
+}
+
+/* Fix filetree positioning */
+.filetree-wrapper {
+    width: var(--dg-filetree-width) !important;
+    min-width: var(--dg-filetree-width) !important;
+}
+
+/* Fix right sidebar positioning and make graph more visible */
+.sidebar {
+    left: auto !important;
+    right: 0 !important;
+    top: 0 !important;
+    min-width: var(--dg-sidebar-min-width) !important;
+    max-width: var(--dg-sidebar-max-width) !important;
+    width: var(--dg-sidebar-max-width) !important;
+    background-color: var(--background-secondary) !important;
+    padding: 80px 20px 20px 20px !important;
+    height: auto !important;
+    min-height: 100vh !important;
+    position: fixed !important;
+    overflow-y: visible !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+/* Wrapper for right sidebar background - extends full height */
+.sidebar::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: var(--dg-sidebar-max-width);
+    height: 100%;
+    min-height: 100vh;
+    background-color: var(--background-secondary);
+    z-index: -1;
+}
+
+.sidebar-container {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 0 !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+.sidebar .graph {
+    width: 100% !important;
+    min-height: var(--dg-graph-height) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.sidebar .graph #link-graph {
+    width: var(--dg-graph-width) !important;
+    height: var(--dg-graph-height) !important;
+    margin: 0 auto !important;
+}
+
+.sidebar .backlinks {
+    width: 100% !important;
+    margin-top: 20px !important;
+}
+
+.sidebar .backlink-list {
+    max-height: none !important;
+    overflow: visible !important;
+}
+
+/* Responsive: maintain layout on different displays */
+@media (min-width: 1400px) {
+    .content {
+        margin-left: calc(var(--dg-filetree-width) + 60px) !important;
+        margin-right: calc(var(--dg-sidebar-max-width) + 60px) !important;
+    }
+    
+    .sidebar::before {
+        width: var(--dg-sidebar-max-width);
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1000px) {
+    .content {
+        margin-left: calc(var(--dg-filetree-width) + 30px) !important;
+        margin-right: auto !important;
+        max-width: calc(100vw - var(--dg-filetree-width) - var(--dg-sidebar-max-width) - 100px) !important;
+    }
+    
+    .sidebar {
+        right: 0 !important;
+        background-color: var(--background-secondary) !important;
+    }
+}
+
+@media (max-width: 1000px) {
+    .content {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        max-width: calc(100vw - 40px) !important;
+    }
+}
+
+/* H1 uses custom RimWorld font */
+.markdown-rendered h1 {
+    font-family: var(--custom-rim-font);
+    color: #d1b075;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
+    border-bottom: none;
+}
+
+/* H2-H6 styling */
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6 {
+    color: #d1b075;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: none;
+}
+
+/* H3 is muted and italic */
+.markdown-rendered h3 {
+    color: #898b8e;
+    font-style: italic;
+    text-transform: none;
+}
+
+/* Scrollbar colors */
+::-webkit-scrollbar {
+    background-color: #0a0b0d;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0a0b0d;
+    border-left: 1px solid #898b8e;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444446;
+    border: 2px solid #0a0b0d;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #58585b;
+}
+
+/* Table colors */
+.markdown-rendered table {
+    background-color: #0a0b0d;
+    border-color: #898b8e;
+}
+
+.markdown-rendered th {
+    background-color: #15181f;
+    color: #898b8e;
+    border-color: #898b8e;
+    text-transform: uppercase;
+}
+
+.markdown-rendered td {
+    border-color: #898b8e;
+}
+
+.markdown-rendered tr:nth-child(even) {
+    background-color: #15181f;
+}
+
+.markdown-rendered tr:hover {
+    background-color: #242933;
+}
+
+/* Checkbox colors */
+.task-list-item-checkbox {
+    background-color: #0a0b0d;
+    border-color: #898b8e;
+    border-radius: 0px;
+}
+
+.task-list-item-checkbox:checked {
+    background-color: #69502c;
+}
+
+.task-list-item-checkbox:checked::after {
+    background-color: #e3e3e3;
+}
+
+/* Button and tag colors */
+button, .tag {
+    background-color: #69502c;
+    color: #e3e3e3;
+    border-color: #898b8e;
+    border-radius: 0px;
+}
+
+button:hover, .tag:hover {
+    background-color: #7d6135;
+}
+
+/* Navigation colors */
+.nav-file-title:hover, 
+.nav-folder-title:hover, 
+.tree-item-self:hover {
+    background-color: #242933;
+    color: #e3e3e3;
+}
+
+.nav-file-title.is-active, 
+.tree-item-self.is-active {
+    background-color: #2e3542;
+}
+
+/* Callout colors */
+.callout {
+    background-color: #0a0b0d;
+    border-color: #898b8e;
+    border-radius: 0px;
+    color: #e3e3e3;
+}
+
+.callout[data-callout="info"] { 
+    border-left-color: #444446;
+}
+
+.callout[data-callout="warning"] { 
+    border-left-color: #d1b075;
+}
+
+.callout[data-callout="error"] { 
+    border-left-color: #c54f4f;
+    background-color: #1a0a0a;
+}
+
+/* Horizontal rule color */
+hr {
+    background-color: #898b8e;
+}
+
+/* Blockquote colors */
+blockquote {
+    border-left-color: #69502c;
+    background-color: rgba(10, 11, 13, 0.8);
+    color: #e3e3e3;
+}
