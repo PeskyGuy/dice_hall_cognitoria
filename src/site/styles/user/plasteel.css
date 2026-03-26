@@ -15,9 +15,9 @@ body {
     --custom-rim-font: "RimWordFont", "Verdana", sans-serif;
     
     /* Background Colors */
-    --background-primary: #15181f; 
-    --background-secondary: #0a0b0d; 
-    --background-secondary-alt: #0a0b0d; 
+    --background-primary: #0a0b0d; 
+    --background-secondary: #15181f; 
+    --background-secondary-alt: #15181f; 
     --background-modifier-border: #898b8e;
     
     /* Interactive Colors */
