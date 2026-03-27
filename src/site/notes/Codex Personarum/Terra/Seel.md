@@ -156,9 +156,9 @@ Soul loves gambling.
 
 ### Miscellaneous Information:
 
-*Campaign / Setting: [[Compendia Mundorum/Worlds/Terra\|Terra]]
+*Campaign / Setting: [[Compendia Mundorum/Worlds/Terra\|Terra]]*
 
 *System: D&D 5e 2014*
 
-*Last updated: 28/03/2026
+*Last updated: 28/03/2026*
 
