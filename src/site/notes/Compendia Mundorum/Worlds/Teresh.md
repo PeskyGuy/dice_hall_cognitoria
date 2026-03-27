@@ -4,7 +4,11 @@
 
 The world where the campaigns Microcosm and Veilpiercer take place.
 
-## General Info
+# General Info
+
+## Teresh
+
+Meaning world in ancient Ohsan, this planet has been around for millions of years. It is unknown how long civilizations existed on the planet but the estimates have been 6,000-8,000 years.
 
 ## Ohsa
 
