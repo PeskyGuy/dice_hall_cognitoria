@@ -155,4 +155,3 @@ Vessel loves drinking.
 *System: D&D 5e 2014*
 
 *Last updated: 28/03/2026*
-
